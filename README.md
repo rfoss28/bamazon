@@ -7,4 +7,4 @@ Clone the repo to your computer and spin up the virtual machine.   Once you are 
 
 ##  Application Flow
 
-![screen two](https://github.com/rfoss28/bamazon/images/screen 2.PNG)
+![screen two](https://github.com/rfoss28/bamazon/code/images/bamazon screen 2.PNG)
