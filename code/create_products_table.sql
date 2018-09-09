@@ -10,7 +10,6 @@ CREATE TABLE `products` (
   `price` DECIMAL(10,2) NULL,
   `stock_quantity` INT NULL,
   PRIMARY KEY (`item_id`),
-UNIQUE INDEX `item_id_UNIQUE` (`item_id` ASC)
 );
 
   INSERT INTO `products` (`product_name`,`department_name`,`price`,`stock_quantity`) VALUES ('FoodSaver T03-0023-01 Wide-Mouth Jar Sealer','Home & Kitchen',6.64,500);
