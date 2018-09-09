@@ -22,6 +22,7 @@ connection.connect(function(err) {
 });
 
 function displayProducts() {
+  console.log("***** Items Available for Purchase*****\n");
   var query = "SELECT * FROM products";
   connection.query(query, function(err, res) {
     if (err) throw err;
