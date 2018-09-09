@@ -7,5 +7,5 @@ Clone the repo to your computer and spin up the virtual machine.   Once you are 
 
 ##  Application Flow
 
-![screen two](https://github.com/rfoss28/bamazon//blob/master/code/images/bamazon inventory screen.PNG
+![screen two](https://github.com/rfoss28/bamazon//blob/master/code/images/bamazon%20inventory%20screen.PNG
     )
