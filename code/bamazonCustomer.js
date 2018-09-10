@@ -66,14 +66,14 @@ function orderPrompt() {
           for (var i = 0; i < res.length; i++) {
             if (answer.itemQuantity <= res[i].stock_quantity) {
               console.log(
-                "We currently have " +
+                "We have " +
                   res[i].stock_quantity +
                   " " +
                   res[i].product_name +
-                  "."
+                  " in stock."
               );
               console.log(
-                "Thank you for your order of " +
+                "You have ordered  " +
                   answer.itemQuantity +
                   " " +
                   res[i].product_name 
