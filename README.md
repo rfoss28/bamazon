@@ -15,11 +15,11 @@ After the item information is shown the user is prompted to enter the item id of
 
 If the requested quantity is in stock the order is confirmed and the database willbe updated behind the scenes.
 
-![screen two](bamazon/code/images/instockorder.PNG]
+![screen two](code/images/instockorder.PNG]
 
 If the quanity requested exceeds the inventory users will receive an insufficient quantity error.
 
-![screen three](bamazon/code/images/insufficient.PNG]
+![screen three](code/images/insufficient.PNG]
 
 
 
