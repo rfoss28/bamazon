@@ -22,7 +22,7 @@ connection.connect(function(err) {
 });
 
 function displayProducts() {
-  console.log("***** Items Available for Purchase*****\n");
+  console.log("\n***** Items Available for Purchase*****\n");
   var query = "SELECT * FROM products";
   connection.query(query, function(err, res) {
     if (err) throw err;
@@ -32,7 +32,7 @@ function displayProducts() {
           res[i].item_id +
           "\nName: " +
           res[i].product_name +
-          "\nPrice: " +
+          "\nPrice: $" +
           res[i].price +
           "\n"
       );
@@ -57,7 +57,7 @@ function orderPrompt() {
       }
     ])
     .then(function(answer) {
-      console.log(answer.itemID);
+     
 
       connection.query(
         "SELECT * FROM products WHERE item_id=?",
@@ -66,11 +66,10 @@ function orderPrompt() {
           for (var i = 0; i < res.length; i++) {
             if (answer.itemQuantity <= res[i].stock_quantity) {
               console.log(
-                "We have " +
-                  res[i].stock_quantity +
-                  " " +
-                  res[i].product_name +
-                  " in stock."
+                "\nItem rquested " + res[i].product_name +
+                  
+                  "\nQuanity in stock: " + res[i].stock_quantity 
+                   
               );
               console.log(
                 "You have ordered  " +
@@ -94,9 +93,9 @@ function orderPrompt() {
 
 
               var purchaseTotal = answer.itemQuantity * res[i].price;
-              console.log(" Your total is $" + purchaseTotal);
+              console.log("Your total is: $" + purchaseTotal);
             } else {
-              console.log("Insufficient Quantity!");
+              console.log("\nInsufficient Quantity!");
             }
           }
           displayProducts();
