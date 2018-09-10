@@ -7,4 +7,21 @@ Clone the repo to your computer and spin up the virtual machine.   Once you are 
 
 ##  Application Flow
 
-![screen two](code/images/bamazon%20inventory%20screen.PNG)
+When the app loads it displays the list of available items, their item IDs and their price.
+
+![screen one](code/images/bamazon%20inventory%20screen.PNG)
+
+After the item information is shown the user is prompted to enter the item id of the item they wish to puchase and the quanity they wish to purchase.
+
+If the requested quantity is in stock the order is confirmed and the database willbe updated behind the scenes.
+
+![screen two](bamazon/code/images/instockorder.PNG]
+
+If the quanity requested exceeds the inventory users will receive an insufficient quantity error.
+
+![screen three](bamazon/code/images/insufficient.PNG]
+
+
+
+
+    
