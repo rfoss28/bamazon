@@ -5,7 +5,7 @@ This is command line program lets users view the inventory and an submit order b
 
 Clone the repo to your computer and spin up the virtual machine.   Once you are SSH'd into the machine, bamazonCustomer.js file run the /var/code folder.
 
-##  Application Flow
+## Application Flow
 
 When the app loads it displays the list of available items, their item IDs and their price.
 
