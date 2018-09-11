@@ -3,7 +3,7 @@ This is command line program lets users view the inventory and an submit order b
 
 ## Installation instructions
 
-Clone the repo to your computer and spin up the virtual machine.   Once you are SSH'd into the machine, bamazonCustomer.js file run the /var/code folder. If no data is found it may be necessary to to create the product table using the product.sql file.
+Clone the repo to your computer and spin up the virtual machine.   Once you are SSH'd into the machine, bamazonCustomer.js file run the /var/code folder. If no data is found it may be necessary to to create the product table using the create_products_table.sql file.
 
 ## Application Flow
 
